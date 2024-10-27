@@ -1,11 +1,8 @@
-const button = document.getElementById("button")
-const header = document.getElementById("header")
+"use strict";
+document.addEventListener("DOMContentLoaded", () => {
+    const button = document.querySelector("#button");
 
-console.log("A");
-console.log("B")
-
-button.addEventListener("click", function() {
-    console.log("You clicked the button!");
-
-    header.textContent = "You clicked the button!";
+    button === null || button === void 0 ? void 0 : button.addEventListener("click", () => {
+        document.body.style.backgroundColor = '#1d4268';
+    });
 });
