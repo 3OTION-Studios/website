@@ -2,5 +2,7 @@ const button = document.getElementById("button")
 const header = document.getElementById("header")
 
 button.addEventListener("click", function() {
-    header.textContent = "You clicked the button!"
+    console.log("You clicked the button!");
+
+    header.textContent = "You clicked the button!";
 });
