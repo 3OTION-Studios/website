@@ -6,12 +6,24 @@ h1 {
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
+    font-size: 30px
 }
 
 p {
     color: white;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #14171a;
+    font-size: 16px;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
 }
