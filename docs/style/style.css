@@ -1,17 +1,16 @@
 body {
     background-color: #14171a;
+    font-size: 50vw;
 }
 
 h1 {
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 50vw;
 }
 
 p {
     color: white;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
 }
