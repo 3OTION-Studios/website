@@ -19,10 +19,11 @@ p {
 button {
     padding: 10px 20px;
     color: white;
+    border-color: white;
     background-color: #14171a;
     font-size: 16px;
     margin-top: 40px;
-    border: none;
+    border:4px;
     cursor: pointer;
     border-radius: 4px;
     transition: background-color 0.3s ease;
